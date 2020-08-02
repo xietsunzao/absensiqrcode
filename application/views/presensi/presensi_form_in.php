@@ -13,9 +13,9 @@
                     <form role="form" id="myForm" data-toggle="validator" action="<?php echo $action; ?>" method="post">
                         <input type="hidden" name="id" id="id" value="<?php echo $gedung->gedung_id ?>">
                         <div class="form-group">
-                            <label for="id_karyawan" class="control-label">Nama Anggota</label>
+                            <label for="id_karyawan" class="control-label">Nama Karyawan</label>
                             <div class="input-group">
-                                <input type="text" class="form-control" data-error="Nama Anggota harus diisi" name="id_karyawan" id="id_karyawan" placeholder="nama karyawan" required />
+                                <input type="text" class="form-control" data-error="Nama Karyawan harus diisi" name="id_karyawan" id="id_karyawan" placeholder="nama karyawan" required />
                                 <span class="input-group-addon">
                                     <span class="glyphicon glyphicon-user"></span>
                                 </span>
