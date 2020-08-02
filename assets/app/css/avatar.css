@@ -1,0 +1,56 @@
+#table_wrapper table {
+    width: 100% !important;
+}
+
+.img-form {
+    width: 25% !important;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+label.file-upload {
+    position: relative;
+    overflow: hidden
+}
+
+label.file-upload input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: 0;
+    background: #fff;
+    cursor: inherit;
+    display: block
+}
+
+.avatar-upload label {
+    width: auto !important;
+}
+
+
+@media (max-width: 767px) {
+
+    .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+        background-color: #922B21;
+    }
+}
+
+.login-page, .register-page {
+    background: url(/assets/dist/img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-logo{
+    width: 50%;
+}

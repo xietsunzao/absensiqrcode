@@ -1,0 +1,57 @@
+.donut2-legend > span {
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+
+}
+
+.donut2-legend > span:last-child {
+    margin-right: 0;
+}
+
+
+.donut2-legend > span > i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-top: -3px;
+    vertical-align: middle;
+    border-radius: 1px;
+
+
+}
+
+.donut-legend > span {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 13px;
+
+
+}
+
+.donut-legend > span:last-child {
+    margin-right: 0;
+}
+
+
+
+.donut-legend > span > i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-top: -3px;
+    vertical-align: middle;
+    border-radius: 1px;
+}
+
+#donut2 {
+    max-height: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
