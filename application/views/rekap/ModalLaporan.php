@@ -52,7 +52,7 @@ $gedung = $this->gedung->get_by_id($segment = $this->uri->segment(3)); ?>
                     <table style='margin-left:130px;'>
                         <tr>
                             <td style='padding:50px'>
-                                <img src="<?php echo base_url(); ?>assets/dist/img/user4-160x160.jpg" width='100px'></img>
+                                <img src="<?php echo base_url(); ?>assets/dist/img/logo.jpg" width='100px'></img>
                             </td>
                             <td> <br>
                                 <p style='text-align: center;font-size:20px;'><b>
