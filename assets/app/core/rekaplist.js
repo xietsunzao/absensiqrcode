@@ -87,6 +87,13 @@ function loadLap(id) {
     });
 }
 
+const add_khd = (id, id2, id3) => {
+    $(document.getElementById('id')).val(id);
+    $(document.getElementById('id_karyawan')).val(id2);
+    $(document.getElementById('id3')).val(id3);
+    $(document.getElementById('sep')).modal("show");
+};
+
 function laporan(id) {
     $("#id").val(id);
     $('#ModalLaporan').modal("show");

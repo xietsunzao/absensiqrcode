@@ -127,7 +127,7 @@
                             <td width='100px' class='tr'>ALAMAT </td>
                             <td class='tr'>:&nbsp;</td>
                             <td class='tr'><?php echo $gedung->alamat; ?> </td>
-                            <td width='200px' class='tr'>PARAF DANRU/CHIEF </td>
+                            <td width='200px' class='tr'>PARAF </td>
                             <td class='tr'>:&nbsp;</td>
                             <td class='tr'>______________________</td>
                         </tr>

@@ -47,12 +47,7 @@ const LoadData = (_id, _id2, id3) => {
 };
 
 // buat nambah data ketidakhadiran
-const add_khd = (id, id2, id3) => {
-    $(document.getElementById('id')).val(id);
-    $(document.getElementById('id_karyawan')).val(id2);
-    $(document.getElementById('id3')).val(id3);
-    $(document.getElementById('sep')).modal("show");
-};
+
 
 const save = () => {
     var id = $(document.getElementById('id')).val();

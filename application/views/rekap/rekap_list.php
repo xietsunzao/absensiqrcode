@@ -38,3 +38,4 @@
     </div><!-- /.box -->
 </section><!-- /.content -->
 <script src="<?php echo base_url() ?>assets/app/core/rekaplist.js"></script>
+<script src="<?php echo base_url() ?>assets/app/core/modalAbsen.js"></script>
