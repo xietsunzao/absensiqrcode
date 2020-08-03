@@ -638,7 +638,7 @@ class Auth extends CI_Controller
 				'name' => 'company',
 				'id' => 'company',
 				'type' => 'text',
-				'value' => 'PT KARYA ALAM MANDIRI',
+				'value' => 'Nama Perusahaan',
 			];
 			$this->data['phone'] = [
 				'name' => 'phone',

@@ -56,14 +56,8 @@ $gedung = $this->gedung->get_by_id($segment = $this->uri->segment(3)); ?>
                             </td>
                             <td> <br>
                                 <p style='text-align: center;font-size:20px;'><b>
-                                        <font size='5px'>DATA LAPORAN SATUAN PENGAMANAN</font>
+                                        <font size='5px'>DATA LAPORAN KARYAWAN</font>
                                     </b></p>
-                                <p style='text-align: center;font-size:20px;'><b>
-                                        <font size='5px'><strong>PT KARYA ALAM MANDIRI</font></strong>
-                                    </b></p>
-                                <p style='text-align: center;margin-top:-10px;'>
-                                    <font color='red' size='4px'>HARD GUARD SECURITY SERVICES</font>
-                                </p>
                             </td>
                         </tr>
                     </table>
@@ -92,7 +86,7 @@ $gedung = $this->gedung->get_by_id($segment = $this->uri->segment(3)); ?>
                             <td width='200px' class='tr'>Alamat </td>
                             <td class='tr'>:&nbsp;</td>
                             <td class='tr'><?php echo $gedung->alamat; ?> </td>
-                            <td width='200px' class='tr'>Manajer Operasional </td>
+                            <td width='200px' class='tr'>Operator </td>
                             <td class='tr'>:&nbsp;</td>
                             <td class='tr'><?= $user->first_name ?></td>
                         </tr>
