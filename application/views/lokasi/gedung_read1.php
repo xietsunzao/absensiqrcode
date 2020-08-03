@@ -6,7 +6,7 @@
               <div class='box'>
                 <div class='box-header'>
                   <?php   $gedung=$this->Gedung_model->get_by_id($segment=$this->uri->segment(3));?>
-                  <h3 class='box-title'>PENGAMANAN <?php echo $gedung->nama_gedung ?></h3><br>
+                  <h3 class='box-title'>DETAIL <?php echo $gedung->nama_gedung ?></h3><br>
                     <h4 class='box-title'><?php echo $gedung->alamat ?></h3><br>
                 </div><!-- /.box-header -->
                 <div class='box-body'>

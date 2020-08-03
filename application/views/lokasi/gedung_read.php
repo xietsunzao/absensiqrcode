@@ -10,7 +10,7 @@
         float: none;
         text-align: center;
     }
-    
+
     div.dataTables_wrapper div.dataTables_length label {
         padding-top: 5px;
         font-weight: normal;
@@ -27,7 +27,7 @@
                     <div class="col-md-4 col-md-6 col-md-push-4">
                         <?php $gedung = $this->Gedung_model->get_by_id($segment = $this->uri->segment(3)); ?>
                         <h3 class='box-title'>
-                            <p align="center"> PENGAMANAN <?php echo $gedung->nama_gedung ?></p>
+                            <p align="center"> DETAIL <?php echo $gedung->nama_gedung ?></p>
                             <p align="center"> <?php echo $gedung->alamat ?></p>
                         </h3>
                     </div>
@@ -57,14 +57,14 @@
                             <?php
                             $start = 0;
                             foreach ($gedung_data as $gedung) { ?>
-                            <tr>
-                                <td><?php echo ++$start ?></td>
-                                <td><?php echo $gedung->nama_karyawan ?></td>
-                                <td><?php echo $gedung->nama_jabatan ?></td>
-                                <td>
-                                    <?php echo $gedung->nama_shift ?>
-                                </td>
-                            </tr> <?php } ?>
+                                <tr>
+                                    <td><?php echo ++$start ?></td>
+                                    <td><?php echo $gedung->nama_karyawan ?></td>
+                                    <td><?php echo $gedung->nama_jabatan ?></td>
+                                    <td>
+                                        <?php echo $gedung->nama_shift ?>
+                                    </td>
+                                </tr> <?php } ?>
                         </tbody>
                         <tr>
                             <td colspan="5" style="text-align:center;"><?php echo anchor('lokasi', 'Kembali', array('class' => 'btn btn-indigo btn-lg btn3d')); ?></td>
