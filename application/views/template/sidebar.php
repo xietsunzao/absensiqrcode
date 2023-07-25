@@ -7,7 +7,7 @@
                 <img src="<?php echo base_url() ?>assets/dist/img/user4-160x160.jpg" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p>Absensi Karyawan</p>
+                <p>Absensi QR Code</p>
             </div>
         </div>
         <!-- search form -->
@@ -21,8 +21,7 @@
         <ul class="sidebar-menu">
             <li>
                 <a href="<?php echo base_url('dashboard') ?>">
-                    <i class="fa fa-laptop"></i> <span>DASHBOARD</span>
-                    <small class="label pull-right bg-red">6</small>
+                    <i class="fa fa-home"></i> <span>Dashboard</span>
                 </a>
             </li>
             <?php
@@ -33,15 +32,15 @@
                     if ($submenu->num_rows() > 0) {
                         // tampilkan submenu
                         echo "<li class='treeview'>
-                                    " . anchor('#',  "<i class='$m->icon'></i> <span>" . strtoupper($m->name) . ' </span><i class="fa fa-angle-left pull-right"></i>') . "
+                                    " . anchor('#',  "<i class='$m->icon'></i> <span>" . ucwords($m->name) . ' </span><i class="fa fa-angle-left pull-right"></i>') . "
                                         <ul class='treeview-menu'>";
                         foreach ($submenu->result() as $s) {
-                            echo "<li>" . anchor($s->link, "<i class='$s->icon'></i> <span>" . strtoupper($s->name)) . "</span></li>";
+                            echo "<li>" . anchor($s->link, "<i class='$s->icon'></i> <span>" . ucwords($s->name)) . "</span></li>";
                         }
                         echo "</ul>
                                     </li>";
                     } else {
-                        echo "<li>" . anchor($m->link, "<i class='$m->icon'></i> <span>" . strtoupper($m->name)) . "</span></li>";
+                        echo "<li>" . anchor($m->link, "<i class='$m->icon'></i> <span>" . ucwords($m->name)) . "</span></li>";
                     }
                 }
                 ?>
