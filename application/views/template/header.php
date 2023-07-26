@@ -31,20 +31,20 @@
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="<?php echo base_url() ?>assets/dist/img/user4-160x160.jpg" class="user-image" alt="User Image">
-                        <span class="hidden-xs">Welcome, <?= $user->first_name ?></span>
+                        <span class="hidden-xs">Welcome, <?= user()->first_name ?></span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
                             <img src="<?php echo base_url() ?>assets/dist/img/user4-160x160.jpg" class="img-circle" alt="User Image">
                             <p>
-                                <?= $user->first_name . ' ' . $user->last_name ?>
-                                <small>Member since <?= date('M, Y', $user->created_on) ?></small>
+                                <?= user()->first_name . ' ' . user()->last_name ?>
+                                <small>Member since <?= date('M, Y', user()->created_on) ?></small>
                             </p>
                         </li>
                         <li class="user-footer">
                             <div class="pull-left">
-                                <a href="<?php echo base_url(('users/profile/') . $users->id); ?>" class="btn btn-default btn-lg">Profile</a>
+                                <a href="<?php echo base_url(('users/profile/') . user()->id); ?>" class="btn btn-default btn-lg">Profile</a>
                             </div>
                             <div class="pull-right">
                                 <?php
